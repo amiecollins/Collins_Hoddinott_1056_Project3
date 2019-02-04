@@ -1,0 +1,150 @@
+body
+color - #5C7031
+
+container
+color - white
+w - 1000px
+height - 100%
+margin - 0 auto
+
+top nav
+color - #9BBC49
+width - 100%
+height - 50px
+
+header
+margin trbl - 34px 80px 33px 50px
+flex direction - row
+flex container {
+
+logo
+color - #9BBC49
+width - 200px
+height - 200px
+margin r - 50px
+margin b - 12px
+
+site title
+color - #9BBC49
+width - 620px
+height - 212px
+
+}
+
+contents
+margin l - 50px
+margin r - 50px
+flex direction - colomn
+flex container {
+
+about title
+color - #5C7031
+width - 900px
+height - 150px
+margin b - 20px
+
+value row
+justify content - space between
+flex direction - row
+flex container {
+
+value picture
+color - #5C7031
+width - 280px
+height - 280px
+
+value contents
+color - #9BBC49
+width - 240px
+height - 120px
+margin trbl - 140px 20px 20px 20px
+
+}
+
+history title
+color - #5C7031
+width - 900px
+height - 150px
+margin t - 100px
+margin b - 20px
+
+history contents
+color - #9BBC49
+width - 900px
+height - 300px
+margin b - 100px
+
+}
+
+footer
+color - #707070
+width - 100px
+height - 250px
+justify content - space between
+flex direction - row
+flex container {
+
+fundraising
+color - #9BBC49
+width - 215px
+height - 190px
+
+cause
+justify content - space between
+flex direction - row
+flex container {
+
+cause picture
+color - #5C7031
+width - 130px
+height - 130px
+
+cause title
+color - #9BBC49
+width - 130px
+height - 45px
+
+}
+
+footer links
+flex direction - column
+flex container {
+
+footer navigation
+flex direction - row
+flex container {
+
+social media
+color - #9BBC49
+flex direction - row
+flex container { 
+
+social media links
+flex direction - column
+justify content - space between
+flex container {
+
+social media link
+color - #5C7031
+width - 35px
+height - 35px
+
+}
+
+}
+
+footer nav
+color - #9BBC49
+width - 114px
+height - 128px
+margin l - 10px
+
+}
+
+copyright
+color - #9BBC49
+width - 215px
+height - 45px
+margin t - 15px
+
+}
