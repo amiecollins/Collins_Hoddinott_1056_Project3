@@ -3,14 +3,15 @@ color - #5C7031
 
 container
 color - white
-w - 1000px
+width - 1000px
 height - 100%
 margin - 0 auto
 
 top nav
 color - #9BBC49
-width - 100%
+width - 1000px
 height - 50px
+position - fixed
 
 header
 margin trbl - 34px 80px 33px 50px
@@ -18,7 +19,7 @@ flex direction - row
 flex container {
 
 logo
-color - #9BBC49
+color - #5C7031
 width - 200px
 height - 200px
 margin r - 50px
@@ -44,6 +45,7 @@ height - 150px
 margin b - 20px
 
 value row
+margin b - 20px
 justify content - space between
 flex direction - row
 flex container {
@@ -57,7 +59,7 @@ value contents
 color - #9BBC49
 width - 240px
 height - 120px
-margin trbl - 140px 20px 20px 20px
+margin trbl - auto 20px 20px 20px
 
 }
 
@@ -65,7 +67,7 @@ history title
 color - #5C7031
 width - 900px
 height - 150px
-margin t - 100px
+margin t - 80px
 margin b - 20px
 
 history contents
@@ -78,8 +80,8 @@ margin b - 100px
 
 footer
 color - #707070
-width - 100px
-height - 250px
+width - 940px
+height - 190px
 justify content - space between
 flex direction - row
 flex container {
@@ -91,7 +93,7 @@ height - 190px
 
 cause
 justify content - space between
-flex direction - row
+flex direction - colomn
 flex container {
 
 cause picture
@@ -116,10 +118,13 @@ flex container {
 
 social media
 color - #9BBC49
+width - 91px
+height - 128px
 flex direction - row
 flex container { 
 
 social media links
+margin l - auto
 flex direction - column
 justify content - space between
 flex container {
