@@ -15,13 +15,13 @@
     font-family: agency-fb, sans-serif;
 }
 
-header {
+#headerAbout {
 	margin: 34px 80px 33px 50px;
 	flex-direction: row;
 	display: flex;
 }
 
-footer {
+#footerAbout {
 	background-color: #707070;
 	width: 940px;
 	height: 190px;
