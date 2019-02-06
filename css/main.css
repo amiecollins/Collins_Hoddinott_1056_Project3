@@ -15,13 +15,13 @@
     font-family: agency-fb, sans-serif;
 }
 
-#headerAbout {
+.aboutHeader {
 	margin: 34px 80px 33px 50px;
 	flex-direction: row;
 	display: flex;
 }
 
-#footerAbout {
+.aboutFooter {
 	background-color: #707070;
 	width: 940px;
 	height: 190px;
@@ -31,7 +31,7 @@
 	display: flex;
 }
 
-.container {
+.containerAbout {
 	background-color: white;
 	width: 1000px;
 	height: 100%;
@@ -166,7 +166,7 @@
 	height: 35px;
 }
 
-.footerNav {
+.footerNavigationPiece {
 	background-color: #9BBC49;
 	width: 114px;
 	height: 128px;
