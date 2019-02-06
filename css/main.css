@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden {
+	display: none;
+}
+
+body {
+	background-color: #5C7031;
+	color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    font-family: agency-fb, sans-serif;
+}
+
+header {
+	margin: 34px 80px 33px 50px;
+	flex-direction: row;
+	display: flex;
+}
+
+footer {
+	background-color: #707070;
+	width: 940px;
+	height: 190px;
+	padding: 30px;
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+}
+
+.container {
+	background-color: white;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.topNav {
+	background-color: #9BBC49;
+	width: 1000px;
+	height: 50px;
+	position: fixed;
+	display: flex;
+	top: 0px;
+}
+
+.logo {
+	background-color: #5C7031;
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+	margin-bottom: 12px;
+}
+
+.siteTitle {
+	background-color: #9BBC49;
+	width: 620px;
+	height: 212px;
+}
+
+.contents {
+	margin-left: 50px;
+	margin-right: 50px;
+	flex-direction: column;
+	display: flex;
+}
+
+.aboutTitle {
+	background-color: #5C7031;
+	width: 900px;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+.valueRow {
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.valuePicture {
+	background-color: #5C7031;
+	width: 280px;
+	height: 280px;
+}
+
+.valueContents {
+	background-color: #9BBC49;
+	width: 240px;
+	height: 120px;
+	margin: 140px 20px 20px 20px;
+}
+
+.historyTitle {
+	background-color: #5C7031;
+	width: 900px;
+	height: 150px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.historyContents {
+	background-color: #9BBC49;
+	width: 900px;
+	height: 300px;
+	margin-bottom: 100px;
+}
+
+.fundraising {
+	background-color: #9BBC49;
+	width: 215px;
+	height: 190px;
+}
+
+.cause {
+	justify-content: space-between;
+	flex-direction: column;
+	display: flex;
+}
+
+.causePicture {
+	background-color: #5C7031;
+	width: 130px;
+	height: 130px;
+}
+
+.causeTitle {
+	background-color: #9BBC49;
+	width: 130px;
+	height: 45px;
+}
+
+.footerLinks {
+	flex-direction: column;
+	display: flex;
+}
+
+.footerNavigation {
+	flex-direction: row;
+	display: flex;
+}
+
+.socialMedia {
+	background-color: #9BBC49;
+	width: 91px;
+	height: 128px;
+	flex-direction: row;
+	display: flex;
+}
+
+.socialMediaLinks {
+	margin-left: auto;
+	flex-direction: column;
+	justify-content: space-between;
+	display: flex;
+}
+
+.socialMediaLink {
+	background-color: #5C7031;
+	width: 35px;
+	height: 35px;
+}
+
+.footerNav {
+	background-color: #9BBC49;
+	width: 114px;
+	height: 128px;
+	margin-left: 10px;
+}
+
+.copyright {
+	background-color: #9BBC49;
+	width: 215px;
+	height: 45px;
+	margin-top: 15px;
+}
